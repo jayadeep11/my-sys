@@ -43,6 +43,8 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
+                "pyright",
+                "bashls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
